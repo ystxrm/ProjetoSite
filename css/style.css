@@ -1,0 +1,50 @@
+:root {
+    --azul-claro: #15B5C2;
+    --azul-um-pouco-mais-escuro: #14ABBB;
+    --azul-escuro: #12A7C7;
+    --cinza-claro: #A1A1A2;
+    --cinza-um-pouco-mais-escuro: #5E5F61;
+    --cinza-escuro: #5B5C5E;
+    --principal: #ffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.Logo {
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    margin-right: 500px;
+}
+
+
+#Top {
+    background-color: var(--cinza-um-pouco-mais-escuro);
+    background-position:top ;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 94px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    display: inline-block;
+    margin: 4px;
+}
+
+.btn {
+    background-color: var(--principal);
+    border-radius: 6px;
+    color: black;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
