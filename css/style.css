@@ -22,7 +22,6 @@ body {
     margin-right: 500px;
 }
 
-
 #Top {
     background-color: var(--cinza-um-pouco-mais-escuro);
     background-position:top ;
@@ -41,7 +40,7 @@ li {
 
 .btn {
     background-color: var(--principal);
-    border-radius: 6px;
+    border-radius: 12px;
     color: black;
     height: 40px;
     text-align: center;

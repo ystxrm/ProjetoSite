@@ -63,13 +63,10 @@
     margin-left:0;
 }
 #radio2:checked ~ .slide-first2 {
-    margin-left: -25%;
+    margin-left: -51%;
 }
 #radio3:checked ~ .slide-first3 {
-    margin-left: 0;
-}
-#radio4:checked ~ .slide-first4 {
-    margin-left: 0;
+    margin-left: -100%;
 }
 
 .navigation-auto div{
