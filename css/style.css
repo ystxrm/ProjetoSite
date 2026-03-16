@@ -24,7 +24,7 @@ body {
 
 #Top {
     background-color: var(--cinza-um-pouco-mais-escuro);
-    background-position:top ;
+    background-position: top;
     background-size: cover;
     display: flex;
     width: 100%;

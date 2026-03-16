@@ -9,10 +9,12 @@
         content="Miolo Gráfica é uma empresa especializada em soluções gráficas de alta qualidade. Oferecemos uma ampla gama de serviços, desde impressão digital até design gráfico, para atender às necessidades de nossos clientes. Com uma equipe experiente e tecnologia avançada, garantimos resultados excepcionais para cada projeto. Seja para materiais promocionais, embalagens ou comunicação visual, a Miolo Gráfica é a escolha certa para transformar suas ideias em realidade.">
 
     <!-- Js -->
-   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/Carrossel.css">
+    <link rel="stylesheet" href="/css/cards.css">
     <!-- Fonts -->
 
     <!-- Icons -->
@@ -22,7 +24,7 @@
 <body>
     <header>
         <div id="Top">
-            <a href="index.html"><img class="Logo"  src="/img/image.png" alt=""></a>
+            <a href="index.html"><img class="Logo" src="/img/image.png" alt=""></a>
             <ul>
                 <li><a href="index.html"><button class="btn">Home</button></a></li>
                 <li><a href="Produtos.html"><button class="btn">Produtos</button></a></li>
@@ -58,11 +60,11 @@
 
         </div>
 
-<div class="manual-navigation">
-    <label for="radio1" class="manual-btn"></label>
-    <label for="radio2" class="manual-btn"></label>
-    <label for="radio3" class="manual-btn"></label>
-</div>
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
 
     </div>
 
@@ -70,13 +72,37 @@
         <h1>Destaques</h1>
     </div>
 
-    <div class="card1">
-        <img src="/img/item1.png" alt="item1">
-        <button><a href=""></a></button>
+    <div id="card1">
+        <img src="/img/item1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Gravação em metal/aço</h5>
+            <p class="card-text">Personalização em metal com gravação de alta precisão. Ideal para copos, cantis, placas
+                e brindes personalizados.</p>
+            <a href="#" class="btn-btn-primary"> <button>Entrar em contato!</button> </a>
+        </div>
     </div>
-
- <script src="/js/script.js"></script>
+    <div id="card1">
+        <img src="/img/item2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Gravação em metal/aço</h5>
+            <p class="card-text">Soluções completas em comunicação visual, impressão e personalização para destacar sua
+                marca.</p>
+            <a href="#" class="btn-btn-primary"> <button>Entrar em contato!</button> </a>
+        </div>
+    </div>
+    <div id="card1" class="card3">
+        <img src="/img/item3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Gravação em metal/aço</h5>
+            <p class="card-text">Soluções completas em comunicação visual, impressão e personalização para destacar sua
+                marca.</p>
+            <a href="#" class="btn-btn-primary"> <button>Entrar em contato!</button> </a>
+        </div>
+    </div>
 
 </body>
 
 </html>
+<script src="/js/lista.js"></script>
+
+<script src="/js/script.js"></script>

@@ -7,3 +7,31 @@
     --cinza-escuro: #5B5C5E;
     --principal: #ffff;
 }
+
+.destaque {
+    display: flex;
+    justify-content: center;
+}
+
+.card-body {
+    background-color: var(--azul-um-pouco-mais-escuro);
+    display: block;
+}
+
+#card1 {
+    margin-left: 154px;
+    width: 18rem;
+   display:inline-block;
+   justify-content: space-between;
+   margin: 45px;
+}
+
+button {
+    border-radius: 4px;
+    margin-left: 70px;
+}
+
+.card-title {
+    display: block;
+}
+

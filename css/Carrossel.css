@@ -8,7 +8,7 @@
     --principal: #ffff;
 }
 
-.slider{
+.slider {
     margin: 0 auto;
     width: 1500px;
     height: 800px;
@@ -25,7 +25,7 @@
     display: none;
 }
 
-.slide{
+.slide {
     width: 25%;
     position: relative;
     transition: 4s;
@@ -59,17 +59,19 @@
     background: var(--azul-claro);
 }
 
-#radio1:checked ~ .slide-first1 {
-    margin-left:0;
-}
-#radio2:checked ~ .slide-first2 {
-    margin-left: -51%;
-}
-#radio3:checked ~ .slide-first3 {
-    margin-left: -100%;
+#radio1:checked~.slide-first1 {
+    margin-left: 0;
 }
 
-.navigation-auto div{
+#radio2:checked~.slide-first2 {
+    margin-left: -52%;
+}
+
+#radio3:checked~.slide-first3 {
+    margin-left: -103%;
+}
+
+.navigation-auto div {
     border: 2px solid var(--cinza-escuro);
     padding: 5px;
     border-radius: 10px;
@@ -85,19 +87,22 @@
     justify-content: center;
 }
 
-.navigation-auto div:not(:last-child){
+.navigation-auto div:not(:last-child) {
     margin-right: 40px;
 }
 
-#radio1:checked ~ .navigation-auto .auto-btn1 {
+#radio1:checked~.navigation-auto .auto-btn1 {
     background-color: var(--azul-claro);
 }
-#radio2:checked ~ .navigation-auto .auto-btn2 {
+
+#radio2:checked~.navigation-auto .auto-btn2 {
     background-color: var(--azul-claro);
 }
-#radio3:checked ~ .navigation-auto .auto-btn3 {
+
+#radio3:checked~.navigation-auto .auto-btn3 {
     background-color: var(--azul-claro);
 }
-#radio4:checked ~ .navigation-auto .auto-btn4 {
+
+#radio4:checked~.navigation-auto .auto-btn4 {
     background-color: var(--azul-claro);
 }
