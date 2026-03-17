@@ -15,23 +15,29 @@
 
 .card-body {
     background-color: var(--azul-um-pouco-mais-escuro);
-    display: block;
 }
 
 #card1 {
-    margin-left: 154px;
+    margin-left: 120px;
     width: 18rem;
-   display:inline-block;
-   justify-content: space-between;
-   margin: 45px;
+   display:inline-table;
+   margin-top: 60px;
 }
 
-button {
-    border-radius: 4px;
-    margin-left: 70px;
+.btn-btn-primary {
+    display: inline-block;
+    background-color: var(--cinza-escuro);
+    color: var(--principal);
+    padding: 10px 10px;
+    margin-left: 65px;
+    border-radius: 8px;
+    text-decoration: none;
 }
 
 .card-title {
     display: block;
 }
 
+.card-img-top {
+    border-top: 15px;
+}

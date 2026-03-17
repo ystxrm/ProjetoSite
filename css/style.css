@@ -39,11 +39,12 @@ li {
 }
 
 .btn {
+    display: inline-block;
     background-color: var(--principal);
-    border-radius: 12px;
-    color: black;
-    height: 40px;
-    text-align: center;
-    font-size: 20px;
-    cursor: pointer;
+    color: var(--cinza-escuro);
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-top: 12px;
 }
