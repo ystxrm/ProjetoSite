@@ -46,7 +46,7 @@
 //      let cards = "";
 //      Data.forEach(c => {
 //  cards += ` 
-//  <img src="/img/item1.png" ${c.image}class="card-img-top" alt="...">
+//  <img src="img/item1.png" ${c.image}class="card-img-top" alt="...">
 //          <div class="card-body">
 //              <h5 class="card-title">${c.title}Gravação em metal/aço</h5>
 //              <p class="card-text">${c.description}Personalização em metal com gravação de alta precisão. Ideal para copos, cantis, placas
