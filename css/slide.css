@@ -10,8 +10,8 @@
 
 .slider {
     margin: 0 auto;
-    width: 1500px;
-    height: 800px;
+    width: 100%;
+    height: 450px;
     overflow: hidden;
 }
 
@@ -32,13 +32,13 @@
 }
 
 .slide img {
-    width: 1500px;
+    width: 100%;
 }
 
 .manual-navigation {
     position: absolute;
-    width: 1500px;
-    margin-top: -40px;
+    width: 100%;
+    margin-top: -380px;
     display: flex;
     justify-content: center;
 }
@@ -60,15 +60,15 @@
 }
 
 #radio1:checked~.slide-first1 {
-    margin-left: 0;
+    margin-left: 0%;
 }
 
 #radio2:checked~.slide-first2 {
-    margin-left: -52%;
+    margin-left: -50%;
 }
 
 #radio3:checked~.slide-first3 {
-    margin-left: -103%;
+    margin-left: -110%;
 }
 
 .navigation-auto div {
@@ -81,8 +81,8 @@
 
 .navigation-auto {
     position: absolute;
-    width: 1500px;
-    margin-top: 760px;
+    width: 100%;
+    margin-top: -380px;
     display: flex;
     justify-content: center;
 }
