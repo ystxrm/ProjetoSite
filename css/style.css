@@ -24,7 +24,7 @@ html {
     width: 83px;
     height: 83px;
     border-radius: 50%;
-    margin-right: 500px;
+    margin-right: 140px;
 }
 
 #top {
@@ -54,10 +54,20 @@ li {
 }
 
 .btn:hover {
-    background-color: var(--azul-claro);
+    color: var(--principal);
+    background-color: var(--azul-escuro);
+}
+
+.btn:active {
+    color: black;
+    background-color: var(--principal);
+    box-shadow: 0 2px #000000; 
+    transform: translateY(2px);
 }
 
 .destaque h1 {
+    margin-top: 10px;
     display: flex;
     justify-content: center;
+    color: var(--azul-claro);
 }

@@ -11,34 +11,34 @@ const meusProdutos = [
     },
     {
         id: 3,
-        titulo: "Copos Stanley",
-        descricao: "Mantenha sua bebida gelada por horas.",
+        titulo: "Letras em Metal com Relevo",
+        descricao: "Valorize sua marca com letras metálicas em relevo que transmitem sofisticação, modernidade e alto padrão.",
     },
     {
         id: 4,
-        titulo: "Copos Stanley",
-        descricao: "Mantenha sua bebida gelada por horas.",
+        titulo: "Cardápio Digital Interativo",
+        descricao: "Modernize o atendimento do seu negócio com um cardápio digital prático e acessível via QR Code.",
     },
     {
         id: 5,
-        titulo: "Copos Stanley",
-        descricao: "Mantenha sua bebida gelada por horas.",
+        titulo: "Cartão de visita em alto relevo",
+        descricao: "Cartão de visita premium com acabamento em alto relevo que valoriza cada detalhe do seu design.",
     },
 
     {
         id: 6,
-        titulo: "Copos Stanley",
-        descricao: "Mantenha sua bebida gelada por horas.",
+        titulo: "Cordões Personalizados com Crachá",
+        descricao: "Cordões profissionais com impressão de alta qualidade, ideais para empresas e eventos. Oferecem resistência, praticidade e fortalecem a identidade visual da sua marca.",
     },
     {
         id: 7,
-        titulo: "Copos Stanley",
-        descricao: "Mantenha sua bebida gelada por horas.",
+        titulo: "Cadernos personalizados",
+        descricao: "Cadernos com design exclusivo e acabamento de qualidade, ideais para organização no dia a dia. Perfeitos para uso pessoal, escolar ou profissional, unindo praticidade e estilo.",
     },
     {
         id: 8,
-        titulo: "Copos Stanley",
-        descricao: "Mantenha sua bebida gelada por horas.",
+        titulo: "Letreiros luminosos personalizados",
+        descricao: "Soluções em iluminação com design moderno e acabamento profissional, ideais para eventos, empresas e ambientes comerciais. Destaque sua marca com impacto visual e sofisticação.",
     },
 
 
